@@ -9,58 +9,6 @@
     android:padding="24dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Ingrese su usuario: "
-        android:inputType="text"
-        android:minHeight="48dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Ingrese su contraseña: "
-        android:inputType="textPassword"
-        android:minHeight="48dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="100">
-
-        <Button
-            android:id="@+id/sumar_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sumar_button_text"
-            android:layout_weight="50"
-            />
-        <Button
-            android:id="@+id/sumar_button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sumar_button_text"
-            android:layout_weight="50"
-            />
-        </LinearLayout>
-
-    <TextView
-        android:id="@+id/contador_textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="30sp"
-        android:layout_margin="30dp"
-        tools:text="0"/>
-
+    
 
 </LinearLayout>

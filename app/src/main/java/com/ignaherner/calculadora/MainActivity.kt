@@ -27,18 +27,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configureViews(){
-        sumarButton = findViewById(R.id.sumar_button1)
-        contadorTextView = findViewById(R.id.contador_textview)
 
-        updateContadorValue()
-
-        sumarButton.setOnClickListener{
-            contador++
-            updateContadorValue()
-        }
     }
 
-    private fun updateContadorValue() {
-        contadorTextView.text = contador.toString()
-    }
+
 }
